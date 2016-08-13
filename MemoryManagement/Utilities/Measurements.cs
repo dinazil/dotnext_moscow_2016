@@ -26,7 +26,7 @@ namespace Utilities
             Console.WriteLine($"{description} took {sw.ElapsedMilliseconds / Repetitions}ms");
         }
 
-        public static void Measure(string description, Action action)
+        public static void Measure<T>(string description, Func<T> action)
         {
             action(); // warmup
 

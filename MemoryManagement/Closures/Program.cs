@@ -7,7 +7,7 @@ namespace Closures
 {
     class Program
     {
-        private const int Elements = 100000;
+        private const int Elements = 200000;
 
         private static int globalSum = 0;
 
